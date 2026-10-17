@@ -1,0 +1,62 @@
+# ====================================
+# Wyniki kompilacji i pliki binarne
+# ====================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+build/
+dist/
+out/
+
+# Pliki wykonywalne i biblioteki
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.msi
+*.nupkg
+
+# ====================================
+# Lokalne ustawienia IDE i edytorów
+# ====================================
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (Rider, IntelliJ, etc.)
+.idea/
+*.iws
+
+# ====================================
+# Pakiety i pamięć podręczna zależności
+# ====================================
+packages/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.assets.json
+
+# ====================================
+# Pliki systemowe i tymczasowe
+# ====================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.log
