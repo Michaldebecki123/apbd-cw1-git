@@ -9,4 +9,15 @@ public static class StatisticsHelper
         }
         return sum;
     }
+
+    public static double CalculateAverage(int[] numbers)
+    {
+        if (numbers == null || numbers.Length == 0)
+        {
+            throw new ArgumentException("Tablica nie może być pusta ani null.");
+        }
+        
+        float sum = CalculateSum(numbers);
+        return sum / numbers.Length;
+    }  
 }
