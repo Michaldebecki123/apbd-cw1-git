@@ -19,5 +19,15 @@ public static class StatisticsHelper
         
         float sum = CalculateSum(numbers);
         return sum / numbers.Length;
-    }  
+    }
+
+    public static int CalculateMax(int[] numbers)
+    {
+        if (numbers == null || numbers.Length == 0)
+        {
+            throw new ArgumentException("Tablica nie może być pusta ani null.");
+        }
+        
+        return (numbers.Max());
+    }
 }
